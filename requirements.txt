@@ -1,0 +1,5 @@
+django
+djangorestframework
+environs
+drf_yasg
+setuptools
