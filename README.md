@@ -7,7 +7,7 @@ This project is a simple Django application that allows users to manage their co
 
 1. Clone the repository:
     ```bash
-    git clone <repository_url>
+    git clone <https://github.com/roger9696/contact-management.git>
     cd contact_management
     ```
 
@@ -36,6 +36,17 @@ This project is a simple Django application that allows users to manage their co
 6. Access the project in your web browser:
     - API Documentation: `http://127.0.0.1:8000/swagger/`
     - Contact Endpoints: `http://127.0.0.1:8000/api/contacts/`
+
+7. Testing
+   `python manage.py test`
+
+
+## API Endpoints
+Create a Contact: POST `/api/contacts/`
+Retrieve Contacts: GET `/api/contacts/`
+Retrieve a Contact: GET `/api/contacts/<id>/`
+Update a Contact: PUT `/api/contacts/<id>/`
+Delete a Contact: DELETE `/api/contacts/<id>/`
 
 ## Additional Notes
 - Ensure you have Python and Django installed.
