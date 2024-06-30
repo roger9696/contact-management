@@ -52,6 +52,3 @@ Delete a Contact: DELETE `/api/contacts/<id>/`
 - Ensure you have Python and Django installed.
 - The project follows the standard Django project structure.
 - The `Contact` model is defined in `contacts/models.py`.
-
-## License Information
-This project is licensed under the MIT License.
