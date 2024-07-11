@@ -33,7 +33,7 @@ This project is a simple Django application that allows users to manage their co
     python manage.py runserver
     ```
 
-6. Access the project in your web browser:
+6. Access the project in your web browser with these urls:
     - API Documentation: `http://127.0.0.1:8000/swagger/`
     - Contact Endpoints: `http://127.0.0.1:8000/api/contacts/`
 
